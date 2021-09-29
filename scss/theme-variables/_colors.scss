@@ -1,0 +1,81 @@
+// All Colors added here need to also be synced with the src/types.ts Colors enum
+
+// core colors
+$primary: #921B6B !default;
+$primary-75: #AD5490 !default;
+$primary-50: #C98DB5 !default;
+$primary-25: #E3C6DA !default;
+$primary-10: #F5E9F1 !default;
+$primary-5: #F9F3F7 !default;
+
+$secondary: #6611D2 !default;
+$secondary-75: #8C4DDD !default;
+$secondary-50: #B388E9 !default;
+$secondary-25: #D8C3F3 !default;
+$secondary-10: #F0E8FB !default;
+$secondary-5: #F7F3FC !default;
+
+$tertiary: #F87B17 !default;
+$tertiary-75: #FA9C51 !default;
+$tertiary-50: #FCBD8B !default;
+$tertiary-25: #FDDEC5 !default;
+$tertiary-10: #FFF2E8 !default;
+$tertiary-5: #FEF8F3 !default;
+
+$quaternary: #1B1E20 !default; // default text color
+$quaternary-75: #545658 !default;
+$quaternary-50: #8D8F90 !default;
+$quaternary-25: #C6C6C7 !default;
+$quaternary-10: #E9E9E9 !default;
+$quaternary-5: #F3F3F4 !default;
+
+$green: #39A148 !default;
+$green-75: #6BB976 !default;
+$green-50: #9DD1A4 !default;
+$green-25: #CDE7D1 !default;
+$green-10: #ECF6ED  !default;
+$green-5: #F5FAF6 !default;
+
+$red: #F40B0B !default;
+$red-75: #F74848 !default;
+$red-50: #FA8585 !default;
+$red-25: #FCC2C2 !default;
+$red-10: #FEE7E7 !default;
+$red-5: #FEF2F2 !default;
+
+// grayscale
+$gray-100: #FFFFFF !default;
+$gray-200: #F6F6F6 !default;
+$gray-300: #959595 !default;
+$gray-400: #404040 !default; 
+
+$disabled: $quaternary-50;
+$text-body: $quaternary;
+$alt-light: $quaternary-5;
+$text-muted: $disabled;
+
+$extra-light: $gray-100;
+$light: $gray-200;
+$medium: $gray-300;
+$dark: $gray-400;
+$headings-margin-bottom: 5px;
+$headings-margin-top: 5px;
+$spacer: 0;
+
+$all-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "tertiary": $tertiary,
+  "quaternary": $quaternary,
+  "gray-100": $gray-100,
+  "gray-200": $gray-200,
+  "gray-300": $gray-300,
+  "gray-400": $gray-400,
+  "text-body": $text-body,
+  "text-muted": $text-muted,
+  "alt-light": $alt-light,
+  "extra-light": $extra-light,
+  "light": $light,
+  "medium": $medium,
+  "dark": $dark
+);

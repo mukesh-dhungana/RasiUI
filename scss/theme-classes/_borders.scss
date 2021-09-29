@@ -1,0 +1,5 @@
+@each $color, $value in $all-colors {
+    .border-#{$color} {
+        border-color: $value !important;
+    }
+}

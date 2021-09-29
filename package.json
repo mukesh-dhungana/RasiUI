@@ -1,0 +1,95 @@
+{
+  "name": "rasi-library",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "description": "This package provides bulletproof UI components in isolation. Following atomic design patterns to build component library. Atoms, Molecules, Organism, Template, Pages.",
+  "author": "whitehat",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@ant-design/icons": "^4.6.4",
+    "@babel/core": "^7.15.0",
+    "@storybook/addon-a11y": "^6.3.7",
+    "@storybook/addon-actions": "^6.3.7",
+    "@storybook/addon-essentials": "^6.3.7",
+    "@storybook/addon-info": "^5.3.21",
+    "@storybook/addon-knobs": "^6.3.0",
+    "@storybook/addon-links": "^6.3.7",
+    "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/addon-storysource": "^6.3.8",
+    "@storybook/addon-viewport": "^6.3.8",
+    "@storybook/addons": "^6.3.8",
+    "@storybook/preset-scss": "^1.0.3",
+    "@storybook/preset-typescript": "^3.0.0",
+    "@storybook/react": "^6.3.7",
+    "@types/react": "^17.0.17",
+    "@types/react-dom": "^17.0.9",
+    "@types/react-router": "^5.1.16",
+    "@types/react-router-dom": "^5.1.8",
+    "autoprefixer": "^9.3.1",
+    "babel-loader": "^8.2.2",
+    "chokidar": "^3.5.2",
+    "concurrently": "^6.2.1",
+    "css-loader": "^5.2.0",
+    "node-sass": "^6.0.1",
+    "node-sass-chokidar": "^1.5.0",
+    "postcss-color-rebeccapurple": "^6.0.0",
+    "react": "^17.0.2",
+    "react-docgen-typescript-loader": "^3.7.2",
+    "react-dom": "^17.0.2",
+    "sass": "^1.37.5",
+    "sass-loader": "^10.1.0",
+    "sass-resources-loader": "^2.2.4",
+    "storybook-react-router": "^1.0.8",
+    "style-loader": "^2.0.0",
+    "typescript": "4.2.2"
+  },
+  "dependencies": {
+    "antd": "^4.16.13",
+    "react-markdown": "^7.0.0",
+    "react-router-dom": "^5.3.0",
+    "react-svg": "^14.0.8",
+    "ts-loader": "^8.3.0",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-css": "node-sass-chokidar ./scss/index.scss -o ./dist",
+    "build-ts": "tsc",
+    "build": "npm run build-ts && npm run build-css",
+    "build-storybook": "build-storybook",
+    "test": "jest"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "files": [
+    "/dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kripesh/rsi-library.git"
+  },
+  "keywords": [
+    "React",
+    "Storybook"
+  ],
+  "bugs": {
+    "url": "https://github.com/kripesh/rsi-library/issues"
+  },
+  "homepage": "https://github.com/kripesh/rsi-library#readme"
+}

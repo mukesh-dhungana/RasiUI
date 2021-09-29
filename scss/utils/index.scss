@@ -1,0 +1,117 @@
+.rsi-ui-util-cursor-pointer {
+    cursor: pointer;
+}
+
+.rsi-ui-controlled-copy {
+    img {
+        max-width: 100%;
+    }
+    h2 {
+        margin-top: $spacer * 3; // spacer 5
+        margin-bottom: $spacer * 2; // spacer 4
+    }
+    h3 {
+        margin-top: $spacer * 2; // spacer 4
+        margin-bottom: $spacer * 1.5; // spacer 3
+    }
+    p {
+        margin-top: $spacer; // spacer 2
+        margin-bottom: $spacer; // spacer 2
+    }
+}
+
+.rsi-dropdown-toggle {
+    font-family: "NeueHaasUnicaW1G-Regular", sans-serif;
+    &.dropdown-toggle {
+        &::after {
+            display: none;
+            content: "";
+        }
+    }
+}
+
+.rsi-ui-feather-chevron-down {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-left: 8px;
+    vertical-align: middle;
+    background: url('data:image/svg+xml;utf8,<svg class="feather feather-chevron-down" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><polyline points="6 9 12 15 18 9"/></svg>');
+    background-repeat: no-repeat;
+    &.feather-chevron-primary {
+        background: url('data:image/svg+xml;utf8,<svg class="feather feather-chevron-down" fill="none" stroke="rgba(34,165,165,1)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><polyline points="6 9 12 15 18 9"/></svg>');
+    }
+}
+
+.rsi-ui-feather-chevron-up {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-left: 8px;
+    vertical-align: middle;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up"><polyline points="18 15 12 9 6 15"/></svg>');
+    background-repeat: no-repeat;
+    &.feather-chevron-primary {
+        background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="rgba(34,165,165,1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up"><polyline points="18 15 12 9 6 15"/></svg>');
+    }
+}
+
+.rsi-ui-feather-chevron-left {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    vertical-align: -5px;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left"><polyline points="15 18 9 12 15 6"/></svg>');
+    background-repeat: no-repeat;
+    &.feather-chevron-primary {
+        background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="rgba(34,165,165,1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left"><polyline points="15 18 9 12 15 6"/></svg>');
+    }
+}
+
+.rsi-ui-feather-chevron-right {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-left: 8px;
+    vertical-align: -5px;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"/></svg>');
+    background-repeat: no-repeat;
+    &.feather-chevron-primary {
+        background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="rgba(34,165,165,1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"/></svg>');
+    }
+}
+
+.transform-scale-2 {
+    transform: scale(2);
+}
+
+.font-size-2-rem {
+    font-size: 2rem;
+}
+
+.list-style-type-none {
+    list-style-type: none;
+}
+
+.rsi-ui-hyphenate {
+    hyphens: auto;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+// style to provide control for images in the copy bock area
+// handheld device shows image in 100% width
+@media screen and (max-width: 575px) {
+    .rsi-ui-responsive-img {
+        width: 100%;
+    }
+}
+
+// device like ipad shows image in 100% width max if it tries to go beyond
+// device widht thus avoid image getting chopped.
+@media screen and (min-width: 576px) and (max-width: 991px) {
+    .rsi-ui-responsive-img {
+        max-width: 100%;
+    }
+}

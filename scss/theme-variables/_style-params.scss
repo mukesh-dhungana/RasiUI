@@ -1,0 +1,769 @@
+/*
+    Colors:
+*/
+
+$color-primary: #921B6B;
+$color-secondary: #6611D2;
+$color-tertiary: #F87B17;
+$color-quaternary: #1B1E20;
+$color-gray-100: #FFFFFF;
+$color-gray-200: #F6F6F6;
+$color-gray-300: #959595;
+$color-gray-400: #404040;
+$color-text-h-1: rgba(0, 0, 0, 0.7);
+
+/*
+    Font Styles:
+*/
+
+
+/* utility/text-link/right font style */
+
+$font-utility-text-link-right-font-size: 18px;
+$font-utility-text-link-right-line-height: 22px;
+$font-utility-text-link-right-text-align: right;
+$font-utility-text-link-right-color: #1098a2;
+$font-utility-text-link-right-text-decoration: underline;
+$font-utility-text-link-right-font-style: normal;
+$font-utility-text-link-right-font-weight: bold;
+$font-utility-text-link-right-font-family: "Neue Haas Unica Pro";
+@mixin font-utility-text-link-right () {
+    font-size: $font-utility-text-link-right-font-size;
+    line-height: $font-utility-text-link-right-line-height;
+    text-align: $font-utility-text-link-right-text-align;
+    color: $font-utility-text-link-right-color;
+    text-decoration: $font-utility-text-link-right-text-decoration;
+    font-style: $font-utility-text-link-right-font-style;
+    font-weight: $font-utility-text-link-right-font-weight;
+    font-family: $font-utility-text-link-right-font-family;
+}
+
+
+/* utility/text-link/center font style */
+
+$font-utility-text-link-center-font-size: 18px;
+$font-utility-text-link-center-line-height: 22px;
+$font-utility-text-link-center-text-align: center;
+$font-utility-text-link-center-color: #1098a2;
+$font-utility-text-link-center-text-decoration: underline;
+$font-utility-text-link-center-font-style: normal;
+$font-utility-text-link-center-font-weight: bold;
+$font-utility-text-link-center-font-family: "Neue Haas Unica Pro";
+@mixin font-utility-text-link-center () {
+    font-size: $font-utility-text-link-center-font-size;
+    line-height: $font-utility-text-link-center-line-height;
+    text-align: $font-utility-text-link-center-text-align;
+    color: $font-utility-text-link-center-color;
+    text-decoration: $font-utility-text-link-center-text-decoration;
+    font-style: $font-utility-text-link-center-font-style;
+    font-weight: $font-utility-text-link-center-font-weight;
+    font-family: $font-utility-text-link-center-font-family;
+}
+
+
+/* utility/quote-author/center font style */
+
+$font-utility-quote-author-center-font-size: 18px;
+$font-utility-quote-author-center-line-height: 22px;
+$font-utility-quote-author-center-text-align: center;
+$font-utility-quote-author-center-color: #000000;
+$font-utility-quote-author-center-font-style: normal;
+$font-utility-quote-author-center-font-weight: bold;
+$font-utility-quote-author-center-font-family: "Neue Haas Unica Pro";
+@mixin font-utility-quote-author-center () {
+    font-size: $font-utility-quote-author-center-font-size;
+    line-height: $font-utility-quote-author-center-line-height;
+    text-align: $font-utility-quote-author-center-text-align;
+    color: $font-utility-quote-author-center-color;
+    font-style: $font-utility-quote-author-center-font-style;
+    font-weight: $font-utility-quote-author-center-font-weight;
+    font-family: $font-utility-quote-author-center-font-family;
+}
+
+
+/* utility/quote-author/right font style */
+
+$font-utility-quote-author-right-font-size: 18px;
+$font-utility-quote-author-right-line-height: 22px;
+$font-utility-quote-author-right-text-align: right;
+$font-utility-quote-author-right-color: #000000;
+$font-utility-quote-author-right-font-style: normal;
+$font-utility-quote-author-right-font-weight: bold;
+$font-utility-quote-author-right-font-family: "Neue Haas Unica Pro";
+@mixin font-utility-quote-author-right () {
+    font-size: $font-utility-quote-author-right-font-size;
+    line-height: $font-utility-quote-author-right-line-height;
+    text-align: $font-utility-quote-author-right-text-align;
+    color: $font-utility-quote-author-right-color;
+    font-style: $font-utility-quote-author-right-font-style;
+    font-weight: $font-utility-quote-author-right-font-weight;
+    font-family: $font-utility-quote-author-right-font-family;
+}
+
+
+/* utility/quote-text/center font style */
+
+$font-utility-quote-text-center-font-size: 18px;
+$font-utility-quote-text-center-line-height: 22px;
+$font-utility-quote-text-center-text-align: center;
+$font-utility-quote-text-center-color: #000000;
+$font-utility-quote-text-center-font-style: italic;
+$font-utility-quote-text-center-font-weight: 400;
+$font-utility-quote-text-center-font-family: "Neue Haas Unica Pro";
+@mixin font-utility-quote-text-center () {
+    font-size: $font-utility-quote-text-center-font-size;
+    line-height: $font-utility-quote-text-center-line-height;
+    text-align: $font-utility-quote-text-center-text-align;
+    color: $font-utility-quote-text-center-color;
+    font-style: $font-utility-quote-text-center-font-style;
+    font-weight: $font-utility-quote-text-center-font-weight;
+    font-family: $font-utility-quote-text-center-font-family;
+}
+
+
+/* utility/quote-text/right font style */
+
+$font-utility-quote-text-right-font-size: 18px;
+$font-utility-quote-text-right-line-height: 22px;
+$font-utility-quote-text-right-text-align: right;
+$font-utility-quote-text-right-color: #000000;
+$font-utility-quote-text-right-font-style: italic;
+$font-utility-quote-text-right-font-weight: 400;
+$font-utility-quote-text-right-font-family: "Neue Haas Unica Pro";
+@mixin font-utility-quote-text-right () {
+    font-size: $font-utility-quote-text-right-font-size;
+    line-height: $font-utility-quote-text-right-line-height;
+    text-align: $font-utility-quote-text-right-text-align;
+    color: $font-utility-quote-text-right-color;
+    font-style: $font-utility-quote-text-right-font-style;
+    font-weight: $font-utility-quote-text-right-font-weight;
+    font-family: $font-utility-quote-text-right-font-family;
+}
+
+
+/* type/h1/right font style */
+
+$font-type-h-1-right-font-size: 37.32px;
+$font-type-h-1-right-line-height: 44px;
+$font-type-h-1-right-text-align: right;
+$font-type-h-1-right-color: rgba(0, 0, 0, 0.7);
+$font-type-h-1-right-font-style: normal;
+$font-type-h-1-right-font-weight: 800;
+$font-type-h-1-right-font-family: "Neue Haas Unica Pro";
+@mixin font-type-h-1-right () {
+    font-size: $font-type-h-1-right-font-size;
+    line-height: $font-type-h-1-right-line-height;
+    text-align: $font-type-h-1-right-text-align;
+    color: $font-type-h-1-right-color;
+    font-style: $font-type-h-1-right-font-style;
+    font-weight: $font-type-h-1-right-font-weight;
+    font-family: $font-type-h-1-right-font-family;
+}
+
+
+/* type/h1/center font style */
+
+$font-type-h-1-center-font-size: 37.32px;
+$font-type-h-1-center-line-height: 44px;
+$font-type-h-1-center-text-align: center;
+$font-type-h-1-center-color: rgba(0, 0, 0, 0.7);
+$font-type-h-1-center-font-style: normal;
+$font-type-h-1-center-font-weight: 800;
+$font-type-h-1-center-font-family: "Neue Haas Unica Pro";
+@mixin font-type-h-1-center () {
+    font-size: $font-type-h-1-center-font-size;
+    line-height: $font-type-h-1-center-line-height;
+    text-align: $font-type-h-1-center-text-align;
+    color: $font-type-h-1-center-color;
+    font-style: $font-type-h-1-center-font-style;
+    font-weight: $font-type-h-1-center-font-weight;
+    font-family: $font-type-h-1-center-font-family;
+}
+
+
+/* type/h2/left font style */
+
+$font-type-h-2-left-font-size: 31.1px;
+$font-type-h-2-left-line-height: 38px;
+$font-type-h-2-left-text-align: left;
+$font-type-h-2-left-color: #333333;
+$font-type-h-2-left-font-style: normal;
+$font-type-h-2-left-font-weight: 400;
+$font-type-h-2-left-font-family: "Neue Haas Unica Pro";
+@mixin font-type-h-2-left () {
+    font-size: $font-type-h-2-left-font-size;
+    line-height: $font-type-h-2-left-line-height;
+    text-align: $font-type-h-2-left-text-align;
+    color: $font-type-h-2-left-color;
+    font-style: $font-type-h-2-left-font-style;
+    font-weight: $font-type-h-2-left-font-weight;
+    font-family: $font-type-h-2-left-font-family;
+}
+
+
+/* type/h2/center font style */
+
+$font-type-h-2-center-font-size: 31.1px;
+$font-type-h-2-center-line-height: 38px;
+$font-type-h-2-center-text-align: center;
+$font-type-h-2-center-color: #333333;
+$font-type-h-2-center-font-style: normal;
+$font-type-h-2-center-font-weight: 400;
+$font-type-h-2-center-font-family: "Neue Haas Unica Pro";
+@mixin font-type-h-2-center () {
+    font-size: $font-type-h-2-center-font-size;
+    line-height: $font-type-h-2-center-line-height;
+    text-align: $font-type-h-2-center-text-align;
+    color: $font-type-h-2-center-color;
+    font-style: $font-type-h-2-center-font-style;
+    font-weight: $font-type-h-2-center-font-weight;
+    font-family: $font-type-h-2-center-font-family;
+}
+
+
+/* type/h2/right font style */
+
+$font-type-h-2-right-font-size: 31.1px;
+$font-type-h-2-right-line-height: 38px;
+$font-type-h-2-right-text-align: right;
+$font-type-h-2-right-color: #333333;
+$font-type-h-2-right-font-style: normal;
+$font-type-h-2-right-font-weight: 400;
+$font-type-h-2-right-font-family: "Neue Haas Unica Pro";
+@mixin font-type-h-2-right () {
+    font-size: $font-type-h-2-right-font-size;
+    line-height: $font-type-h-2-right-line-height;
+    text-align: $font-type-h-2-right-text-align;
+    color: $font-type-h-2-right-color;
+    font-style: $font-type-h-2-right-font-style;
+    font-weight: $font-type-h-2-right-font-weight;
+    font-family: $font-type-h-2-right-font-family;
+}
+
+
+/* type/h3/left font style */
+
+$font-type-h-3-left-font-size: 25.92px;
+$font-type-h-3-left-line-height: 32px;
+$font-type-h-3-left-text-align: left;
+$font-type-h-3-left-color: #333333;
+$font-type-h-3-left-font-style: normal;
+$font-type-h-3-left-font-weight: 400;
+$font-type-h-3-left-font-family: "Neue Haas Unica Pro";
+@mixin font-type-h-3-left () {
+    font-size: $font-type-h-3-left-font-size;
+    line-height: $font-type-h-3-left-line-height;
+    text-align: $font-type-h-3-left-text-align;
+    color: $font-type-h-3-left-color;
+    font-style: $font-type-h-3-left-font-style;
+    font-weight: $font-type-h-3-left-font-weight;
+    font-family: $font-type-h-3-left-font-family;
+}
+
+
+/* type/h3/center font style */
+
+$font-type-h-3-center-font-size: 25.92px;
+$font-type-h-3-center-line-height: 32px;
+$font-type-h-3-center-text-align: center;
+$font-type-h-3-center-color: #333333;
+$font-type-h-3-center-font-style: normal;
+$font-type-h-3-center-font-weight: 400;
+$font-type-h-3-center-font-family: "Neue Haas Unica Pro";
+@mixin font-type-h-3-center () {
+    font-size: $font-type-h-3-center-font-size;
+    line-height: $font-type-h-3-center-line-height;
+    text-align: $font-type-h-3-center-text-align;
+    color: $font-type-h-3-center-color;
+    font-style: $font-type-h-3-center-font-style;
+    font-weight: $font-type-h-3-center-font-weight;
+    font-family: $font-type-h-3-center-font-family;
+}
+
+
+/* type/h3/right font style */
+
+$font-type-h-3-right-font-size: 25.92px;
+$font-type-h-3-right-line-height: 32px;
+$font-type-h-3-right-text-align: right;
+$font-type-h-3-right-color: #333333;
+$font-type-h-3-right-font-style: normal;
+$font-type-h-3-right-font-weight: 400;
+$font-type-h-3-right-font-family: "Neue Haas Unica Pro";
+@mixin font-type-h-3-right () {
+    font-size: $font-type-h-3-right-font-size;
+    line-height: $font-type-h-3-right-line-height;
+    text-align: $font-type-h-3-right-text-align;
+    color: $font-type-h-3-right-color;
+    font-style: $font-type-h-3-right-font-style;
+    font-weight: $font-type-h-3-right-font-weight;
+    font-family: $font-type-h-3-right-font-family;
+}
+
+
+/* type/h4/left font style */
+
+$font-type-h-4-left-font-size: 21.6px;
+$font-type-h-4-left-line-height: 26px;
+$font-type-h-4-left-text-align: left;
+$font-type-h-4-left-font-style: normal;
+$font-type-h-4-left-font-weight: 400;
+$font-type-h-4-left-font-family: "Neue Haas Unica Pro";
+@mixin font-type-h-4-left () {
+    font-size: $font-type-h-4-left-font-size;
+    line-height: $font-type-h-4-left-line-height;
+    text-align: $font-type-h-4-left-text-align;
+    font-style: $font-type-h-4-left-font-style;
+    font-weight: $font-type-h-4-left-font-weight;
+    font-family: $font-type-h-4-left-font-family;
+}
+
+
+/* type/h4/center font style */
+
+$font-type-h-4-center-font-size: 21.6px;
+$font-type-h-4-center-line-height: 26px;
+$font-type-h-4-center-text-align: center;
+$font-type-h-4-center-font-style: normal;
+$font-type-h-4-center-font-weight: 400;
+$font-type-h-4-center-font-family: "Neue Haas Unica Pro";
+@mixin font-type-h-4-center () {
+    font-size: $font-type-h-4-center-font-size;
+    line-height: $font-type-h-4-center-line-height;
+    text-align: $font-type-h-4-center-text-align;
+    font-style: $font-type-h-4-center-font-style;
+    font-weight: $font-type-h-4-center-font-weight;
+    font-family: $font-type-h-4-center-font-family;
+}
+
+
+/* type/h4/right font style */
+
+$font-type-h-4-right-font-size: 21.6px;
+$font-type-h-4-right-line-height: 26px;
+$font-type-h-4-right-text-align: right;
+$font-type-h-4-right-font-style: normal;
+$font-type-h-4-right-font-weight: 400;
+$font-type-h-4-right-font-family: "Neue Haas Unica Pro";
+@mixin font-type-h-4-right () {
+    font-size: $font-type-h-4-right-font-size;
+    line-height: $font-type-h-4-right-line-height;
+    text-align: $font-type-h-4-right-text-align;
+    font-style: $font-type-h-4-right-font-style;
+    font-weight: $font-type-h-4-right-font-weight;
+    font-family: $font-type-h-4-right-font-family;
+}
+
+
+/* type/sub-heading/left font style */
+
+$font-type-sub-heading-left-font-size: 18px;
+$font-type-sub-heading-left-line-height: normal;
+$font-type-sub-heading-left-text-align: left;
+$font-type-sub-heading-left-color: #8a8a8a;
+$font-type-sub-heading-left-letter-spacing: 1.5px;
+$font-type-sub-heading-left-text-transform: uppercase;
+$font-type-sub-heading-left-font-style: normal;
+$font-type-sub-heading-left-font-weight: bold;
+$font-type-sub-heading-left-font-family: "Neue Haas Unica Pro";
+@mixin font-type-sub-heading-left () {
+    font-size: $font-type-sub-heading-left-font-size;
+    line-height: $font-type-sub-heading-left-line-height;
+    text-align: $font-type-sub-heading-left-text-align;
+    color: $font-type-sub-heading-left-color;
+    letter-spacing: $font-type-sub-heading-left-letter-spacing;
+    text-transform: $font-type-sub-heading-left-text-transform;
+    font-style: $font-type-sub-heading-left-font-style;
+    font-weight: $font-type-sub-heading-left-font-weight;
+    font-family: $font-type-sub-heading-left-font-family;
+}
+
+
+/* type/small/center font style */
+
+$font-type-small-center-font-size: 16px;
+$font-type-small-center-line-height: 20px;
+$font-type-small-center-text-align: center;
+$font-type-small-center-color: #000000;
+$font-type-small-center-font-style: normal;
+$font-type-small-center-font-weight: 400;
+$font-type-small-center-font-family: "Neue Haas Unica Pro";
+@mixin font-type-small-center () {
+    font-size: $font-type-small-center-font-size;
+    line-height: $font-type-small-center-line-height;
+    text-align: $font-type-small-center-text-align;
+    color: $font-type-small-center-color;
+    font-style: $font-type-small-center-font-style;
+    font-weight: $font-type-small-center-font-weight;
+    font-family: $font-type-small-center-font-family;
+}
+
+
+/* type/small/right font style */
+
+$font-type-small-right-font-size: 16px;
+$font-type-small-right-line-height: 20px;
+$font-type-small-right-text-align: right;
+$font-type-small-right-color: #000000;
+$font-type-small-right-font-style: normal;
+$font-type-small-right-font-weight: 400;
+$font-type-small-right-font-family: "Neue Haas Unica Pro";
+@mixin font-type-small-right () {
+    font-size: $font-type-small-right-font-size;
+    line-height: $font-type-small-right-line-height;
+    text-align: $font-type-small-right-text-align;
+    color: $font-type-small-right-color;
+    font-style: $font-type-small-right-font-style;
+    font-weight: $font-type-small-right-font-weight;
+    font-family: $font-type-small-right-font-family;
+}
+
+
+/* type/sub-heading/center font style */
+
+$font-type-sub-heading-center-font-size: 18px;
+$font-type-sub-heading-center-line-height: normal;
+$font-type-sub-heading-center-text-align: center;
+$font-type-sub-heading-center-color: #8a8a8a;
+$font-type-sub-heading-center-letter-spacing: 1.5px;
+$font-type-sub-heading-center-text-transform: uppercase;
+$font-type-sub-heading-center-font-style: normal;
+$font-type-sub-heading-center-font-weight: bold;
+$font-type-sub-heading-center-font-family: "Neue Haas Unica Pro";
+@mixin font-type-sub-heading-center () {
+    font-size: $font-type-sub-heading-center-font-size;
+    line-height: $font-type-sub-heading-center-line-height;
+    text-align: $font-type-sub-heading-center-text-align;
+    color: $font-type-sub-heading-center-color;
+    letter-spacing: $font-type-sub-heading-center-letter-spacing;
+    text-transform: $font-type-sub-heading-center-text-transform;
+    font-style: $font-type-sub-heading-center-font-style;
+    font-weight: $font-type-sub-heading-center-font-weight;
+    font-family: $font-type-sub-heading-center-font-family;
+}
+
+
+/* type/sub-heading/right font style */
+
+$font-type-sub-heading-right-font-size: 18px;
+$font-type-sub-heading-right-line-height: normal;
+$font-type-sub-heading-right-text-align: right;
+$font-type-sub-heading-right-color: #8a8a8a;
+$font-type-sub-heading-right-letter-spacing: 1.5px;
+$font-type-sub-heading-right-text-transform: uppercase;
+$font-type-sub-heading-right-font-style: normal;
+$font-type-sub-heading-right-font-weight: bold;
+$font-type-sub-heading-right-font-family: "Neue Haas Unica Pro";
+@mixin font-type-sub-heading-right () {
+    font-size: $font-type-sub-heading-right-font-size;
+    line-height: $font-type-sub-heading-right-line-height;
+    text-align: $font-type-sub-heading-right-text-align;
+    color: $font-type-sub-heading-right-color;
+    letter-spacing: $font-type-sub-heading-right-letter-spacing;
+    text-transform: $font-type-sub-heading-right-text-transform;
+    font-style: $font-type-sub-heading-right-font-style;
+    font-weight: $font-type-sub-heading-right-font-weight;
+    font-family: $font-type-sub-heading-right-font-family;
+}
+
+
+/* utility/input-title-danger font style */
+
+$font-utility-input-title-danger-font-size: 18px;
+$font-utility-input-title-danger-line-height: normal;
+$font-utility-input-title-danger-text-align: left;
+$font-utility-input-title-danger-color: #ff4f4f;
+$font-utility-input-title-danger-font-style: normal;
+$font-utility-input-title-danger-font-weight: 400;
+$font-utility-input-title-danger-font-family: "Neue Haas Unica Pro";
+@mixin font-utility-input-title-danger () {
+    font-size: $font-utility-input-title-danger-font-size;
+    line-height: $font-utility-input-title-danger-line-height;
+    text-align: $font-utility-input-title-danger-text-align;
+    color: $font-utility-input-title-danger-color;
+    font-style: $font-utility-input-title-danger-font-style;
+    font-weight: $font-utility-input-title-danger-font-weight;
+    font-family: $font-utility-input-title-danger-font-family;
+}
+
+
+/* utility/input-title font style */
+
+$font-utility-input-title-font-size: 18px;
+$font-utility-input-title-line-height: normal;
+$font-utility-input-title-text-align: left;
+$font-utility-input-title-color: #000000;
+$font-utility-input-title-font-style: normal;
+$font-utility-input-title-font-weight: 400;
+$font-utility-input-title-font-family: "Neue Haas Unica Pro";
+@mixin font-utility-input-title () {
+    font-size: $font-utility-input-title-font-size;
+    line-height: $font-utility-input-title-line-height;
+    text-align: $font-utility-input-title-text-align;
+    color: $font-utility-input-title-color;
+    font-style: $font-utility-input-title-font-style;
+    font-weight: $font-utility-input-title-font-weight;
+    font-family: $font-utility-input-title-font-family;
+}
+
+
+/* utility/button-text font style */
+
+$font-utility-button-text-font-size: 18px;
+$font-utility-button-text-line-height: normal;
+$font-utility-button-text-text-align: center;
+$font-utility-button-text-color: #000000;
+$font-utility-button-text-font-style: normal;
+$font-utility-button-text-font-weight: bold;
+$font-utility-button-text-font-family: "Neue Haas Unica Pro";
+@mixin font-utility-button-text () {
+    font-size: $font-utility-button-text-font-size;
+    line-height: $font-utility-button-text-line-height;
+    text-align: $font-utility-button-text-text-align;
+    color: $font-utility-button-text-color;
+    font-style: $font-utility-button-text-font-style;
+    font-weight: $font-utility-button-text-font-weight;
+    font-family: $font-utility-button-text-font-family;
+}
+
+
+/* utility/article-title/left font style */
+
+$font-utility-article-title-left-font-size: 18px;
+$font-utility-article-title-left-line-height: normal;
+$font-utility-article-title-left-text-align: left;
+$font-utility-article-title-left-color: #000000;
+$font-utility-article-title-left-font-style: normal;
+$font-utility-article-title-left-font-weight: bold;
+$font-utility-article-title-left-font-family: "Neue Haas Unica Pro";
+@mixin font-utility-article-title-left () {
+    font-size: $font-utility-article-title-left-font-size;
+    line-height: $font-utility-article-title-left-line-height;
+    text-align: $font-utility-article-title-left-text-align;
+    color: $font-utility-article-title-left-color;
+    font-style: $font-utility-article-title-left-font-style;
+    font-weight: $font-utility-article-title-left-font-weight;
+    font-family: $font-utility-article-title-left-font-family;
+}
+
+
+/* utility/input-placeholder font style */
+
+$font-utility-input-placeholder-font-size: 18px;
+$font-utility-input-placeholder-line-height: normal;
+$font-utility-input-placeholder-text-align: left;
+$font-utility-input-placeholder-color: #8a8a8a;
+$font-utility-input-placeholder-font-style: normal;
+$font-utility-input-placeholder-font-weight: 400;
+$font-utility-input-placeholder-font-family: "Neue Haas Unica Pro";
+@mixin font-utility-input-placeholder () {
+    font-size: $font-utility-input-placeholder-font-size;
+    line-height: $font-utility-input-placeholder-line-height;
+    text-align: $font-utility-input-placeholder-text-align;
+    color: $font-utility-input-placeholder-color;
+    font-style: $font-utility-input-placeholder-font-style;
+    font-weight: $font-utility-input-placeholder-font-weight;
+    font-family: $font-utility-input-placeholder-font-family;
+}
+
+
+/* utility/quote-text/left font style */
+
+$font-utility-quote-text-left-font-size: 18px;
+$font-utility-quote-text-left-line-height: 22px;
+$font-utility-quote-text-left-text-align: left;
+$font-utility-quote-text-left-color: #000000;
+$font-utility-quote-text-left-font-style: italic;
+$font-utility-quote-text-left-font-weight: 400;
+$font-utility-quote-text-left-font-family: "Neue Haas Unica Pro";
+@mixin font-utility-quote-text-left () {
+    font-size: $font-utility-quote-text-left-font-size;
+    line-height: $font-utility-quote-text-left-line-height;
+    text-align: $font-utility-quote-text-left-text-align;
+    color: $font-utility-quote-text-left-color;
+    font-style: $font-utility-quote-text-left-font-style;
+    font-weight: $font-utility-quote-text-left-font-weight;
+    font-family: $font-utility-quote-text-left-font-family;
+}
+
+
+/* utility/button-text-alt font style */
+
+$font-utility-button-text-alt-font-size: 18px;
+$font-utility-button-text-alt-line-height: normal;
+$font-utility-button-text-alt-text-align: center;
+$font-utility-button-text-alt-color: #ffffff;
+$font-utility-button-text-alt-font-style: normal;
+$font-utility-button-text-alt-font-weight: bold;
+$font-utility-button-text-alt-font-family: "Neue Haas Unica Pro";
+@mixin font-utility-button-text-alt () {
+    font-size: $font-utility-button-text-alt-font-size;
+    line-height: $font-utility-button-text-alt-line-height;
+    text-align: $font-utility-button-text-alt-text-align;
+    color: $font-utility-button-text-alt-color;
+    font-style: $font-utility-button-text-alt-font-style;
+    font-weight: $font-utility-button-text-alt-font-weight;
+    font-family: $font-utility-button-text-alt-font-family;
+}
+
+
+/* utility/input-text font style */
+
+$font-utility-input-text-font-size: 18px;
+$font-utility-input-text-line-height: normal;
+$font-utility-input-text-text-align: left;
+$font-utility-input-text-color: #000000;
+$font-utility-input-text-font-style: normal;
+$font-utility-input-text-font-weight: bold;
+$font-utility-input-text-font-family: "Neue Haas Unica Pro";
+@mixin font-utility-input-text () {
+    font-size: $font-utility-input-text-font-size;
+    line-height: $font-utility-input-text-line-height;
+    text-align: $font-utility-input-text-text-align;
+    color: $font-utility-input-text-color;
+    font-style: $font-utility-input-text-font-style;
+    font-weight: $font-utility-input-text-font-weight;
+    font-family: $font-utility-input-text-font-family;
+}
+
+
+/* utility/text-link/left font style */
+
+$font-utility-text-link-left-font-size: 18px;
+$font-utility-text-link-left-line-height: 22px;
+$font-utility-text-link-left-text-align: left;
+$font-utility-text-link-left-color: #1098a2;
+$font-utility-text-link-left-text-decoration: underline;
+$font-utility-text-link-left-font-style: normal;
+$font-utility-text-link-left-font-weight: bold;
+$font-utility-text-link-left-font-family: "Neue Haas Unica Pro";
+@mixin font-utility-text-link-left () {
+    font-size: $font-utility-text-link-left-font-size;
+    line-height: $font-utility-text-link-left-line-height;
+    text-align: $font-utility-text-link-left-text-align;
+    color: $font-utility-text-link-left-color;
+    text-decoration: $font-utility-text-link-left-text-decoration;
+    font-style: $font-utility-text-link-left-font-style;
+    font-weight: $font-utility-text-link-left-font-weight;
+    font-family: $font-utility-text-link-left-font-family;
+}
+
+
+/* utility/quote-author/left font style */
+
+$font-utility-quote-author-left-font-size: 18px;
+$font-utility-quote-author-left-line-height: 22px;
+$font-utility-quote-author-left-text-align: left;
+$font-utility-quote-author-left-color: #000000;
+$font-utility-quote-author-left-font-style: normal;
+$font-utility-quote-author-left-font-weight: bold;
+$font-utility-quote-author-left-font-family: "Neue Haas Unica Pro";
+@mixin font-utility-quote-author-left () {
+    font-size: $font-utility-quote-author-left-font-size;
+    line-height: $font-utility-quote-author-left-line-height;
+    text-align: $font-utility-quote-author-left-text-align;
+    color: $font-utility-quote-author-left-color;
+    font-style: $font-utility-quote-author-left-font-style;
+    font-weight: $font-utility-quote-author-left-font-weight;
+    font-family: $font-utility-quote-author-left-font-family;
+}
+
+
+/* type/small/left font style */
+
+$font-type-small-left-font-size: 16px;
+$font-type-small-left-line-height: 20px;
+$font-type-small-left-text-align: start;
+$font-type-small-left-color: #000000;
+$font-type-small-left-font-style: normal;
+$font-type-small-left-font-weight: 400;
+$font-type-small-left-font-family: "Neue Haas Unica Pro";
+@mixin font-type-small-left () {
+    font-size: $font-type-small-left-font-size;
+    line-height: $font-type-small-left-line-height;
+    text-align: $font-type-small-left-text-align;
+    color: $font-type-small-left-color;
+    font-style: $font-type-small-left-font-style;
+    font-weight: $font-type-small-left-font-weight;
+    font-family: $font-type-small-left-font-family;
+}
+
+
+/* type/h1/left font style */
+
+$font-type-h-1-left-font-size: 37.32px;
+$font-type-h-1-left-line-height: 44px;
+$font-type-h-1-left-text-align: left;
+$font-type-h-1-left-color: rgba(0, 0, 0, 0.7);
+$font-type-h-1-left-font-style: normal;
+$font-type-h-1-left-font-weight: 800;
+$font-type-h-1-left-font-family: "Neue Haas Unica Pro";
+@mixin font-type-h-1-left () {
+    font-size: $font-type-h-1-left-font-size;
+    line-height: $font-type-h-1-left-line-height;
+    text-align: $font-type-h-1-left-text-align;
+    color: $font-type-h-1-left-color;
+    font-style: $font-type-h-1-left-font-style;
+    font-weight: $font-type-h-1-left-font-weight;
+    font-family: $font-type-h-1-left-font-family;
+}
+
+
+/* type/paragraph/center font style */
+
+$font-type-paragraph-center-font-size: 18px;
+$font-type-paragraph-center-line-height: 22px;
+$font-type-paragraph-center-text-align: center;
+$font-type-paragraph-center-color: #333333;
+$font-type-paragraph-center-font-style: normal;
+$font-type-paragraph-center-font-weight: 400;
+$font-type-paragraph-center-font-family: "Neue Haas Unica Pro";
+@mixin font-type-paragraph-center () {
+    font-size: $font-type-paragraph-center-font-size;
+    line-height: $font-type-paragraph-center-line-height;
+    text-align: $font-type-paragraph-center-text-align;
+    color: $font-type-paragraph-center-color;
+    font-style: $font-type-paragraph-center-font-style;
+    font-weight: $font-type-paragraph-center-font-weight;
+    font-family: $font-type-paragraph-center-font-family;
+}
+
+
+/* type/paragraph/left font style */
+
+$font-type-paragraph-left-font-size: 18px;
+$font-type-paragraph-left-line-height: 22px;
+$font-type-paragraph-left-text-align: left;
+$font-type-paragraph-left-color: #333333;
+$font-type-paragraph-left-font-style: normal;
+$font-type-paragraph-left-font-weight: 400;
+$font-type-paragraph-left-font-family: "Neue Haas Unica Pro";
+@mixin font-type-paragraph-left () {
+    font-size: $font-type-paragraph-left-font-size;
+    line-height: $font-type-paragraph-left-line-height;
+    text-align: $font-type-paragraph-left-text-align;
+    color: $font-type-paragraph-left-color;
+    font-style: $font-type-paragraph-left-font-style;
+    font-weight: $font-type-paragraph-left-font-weight;
+    font-family: $font-type-paragraph-left-font-family;
+}
+
+
+/* type/paragraph/right font style */
+
+$font-type-paragraph-right-font-size: 18px;
+$font-type-paragraph-right-line-height: 22px;
+$font-type-paragraph-right-text-align: right;
+$font-type-paragraph-right-color: #333333;
+$font-type-paragraph-right-font-style: normal;
+$font-type-paragraph-right-font-weight: 400;
+$font-type-paragraph-right-font-family: "Neue Haas Unica Pro";
+@mixin font-type-paragraph-right () {
+    font-size: $font-type-paragraph-right-font-size;
+    line-height: $font-type-paragraph-right-line-height;
+    text-align: $font-type-paragraph-right-text-align;
+    color: $font-type-paragraph-right-color;
+    font-style: $font-type-paragraph-right-font-style;
+    font-weight: $font-type-paragraph-right-font-weight;
+    font-family: $font-type-paragraph-right-font-family;
+}

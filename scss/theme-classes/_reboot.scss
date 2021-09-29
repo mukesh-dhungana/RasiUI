@@ -1,0 +1,556 @@
+/* TEXT TAGS */
+
+body {
+  font-family: "Neue Haas Unica Pro", sans-serif;
+}
+
+// Link styles - site wide
+a:hover,
+a:focus,
+a:active {
+  text-decoration: underline;
+}
+
+a {
+  font-weight: 800;
+  color: $primary;
+  text-decoration: underline;
+}
+
+p,
+.p {
+  margin-top: 0;
+  margin-bottom: $headings-margin-bottom;
+  font-family: "Neue Haas Unica Pro", sans-serif;
+  font-size: $font-size-base;
+  line-height: 150%;
+  color: $quaternary;
+}
+
+//bold text styling require a font change
+b,
+strong {
+  font-family: "Neue Haas Unica Pro Bold", sans-serif;
+}
+
+::selection,
+mark {
+  background: #c8e8e8; /* Webkit/Blink Browsers */
+}
+
+/* TEXT CLASSES - for font appearance */
+
+h1,
+.h0 {
+  margin-top: 0;
+  margin-bottom: $headings-margin-bottom;
+  font-family: "Brother 1816 Medium", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 150%;
+  color: $quaternary;
+}
+
+h1,
+.h1 {
+  margin-top: 0;
+  margin-bottom: $headings-margin-bottom;
+  font-family: "Neue Haas Unica Pro", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  color: $quaternary;
+}
+
+h2,
+.h2 {
+  margin-top: 0;
+  margin-bottom: $headings-margin-bottom;
+  font-family: "Neue Haas Unica Pro", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: $quaternary;
+}
+
+h3,
+.h3 {
+  margin-top: 0;
+  margin-bottom: $headings-margin-bottom;
+  font-family: "Neue Haas Unica Pro", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: $quaternary;
+}
+
+h4,
+.h4 {
+  margin-top: 0;
+  margin-bottom: $headings-margin-bottom;
+  font-family: "Neue Haas Unica Pro", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: $quaternary;
+}
+
+h5,
+.h5 {
+  margin-top: 0;
+  margin-bottom: $headings-margin-bottom;
+  font-family: "Neue Haas Unica Pro", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 150%;
+  color: $quaternary;
+  opacity: 0.5;
+}
+
+h6,
+.h6 {
+  margin-top: 0;
+  margin-bottom: $headings-margin-bottom;
+  font-family: "Neue Haas Unica Pro", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: $quaternary;
+  opacity: 0.5;
+}
+
+.h6-alt,
+.h6-alt-secondary,
+.h6-alt-tertiary {
+  color: $quaternary;
+}
+
+small,
+.small {
+  margin-top: 0;
+  margin-bottom: $headings-margin-bottom;
+  font-family: "Neue Haas Unica Pro", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 40px;
+  color: $quaternary;
+}
+
+.sub-heading {
+  font-family: "Neue Haas Unica Pro Bold", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  color: $quaternary-50;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.text-disabled {
+  color: $disabled;
+}
+
+/* BODY LARGE CLASSES - for font appearance */
+.body-large-lg {
+  margin-top: 0;
+  margin-bottom: $headings-margin-bottom;
+  font-family: "Neue Haas Unica Pro Bold", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: $quaternary;
+}
+
+.body-large-md {
+  margin-top: 0;
+  margin-bottom: $headings-margin-bottom;
+  font-family: "Neue Haas Unica Pro Medium", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: $quaternary;
+}
+
+.body-large-sm {
+  margin-top: 0;
+  margin-bottom: $headings-margin-bottom;
+  font-family: "Neue Haas Unica Pro", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: $quaternary;
+}
+
+.body-large-light-lg {
+  margin-top: 0;
+  margin-bottom: $headings-margin-bottom;
+  font-family: "Neue Haas Unica Pro Bold", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: $quaternary;
+  opacity: 0.5;
+}
+
+.body-large-light-md {
+  margin-top: 0;
+  margin-bottom: $headings-margin-bottom;
+  font-family: "Neue Haas Unica Pro Medium", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: $quaternary;
+  opacity: 0.5;
+}
+
+.body-large-light-sm {
+  margin-top: 0;
+  margin-bottom: $headings-margin-bottom;
+  font-family: "Neue Haas Unica Pro", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: $quaternary;
+  opacity: 0.5;
+}
+
+/* BODY MEDIUM CLASSES - for font appearance */
+
+.body-medium-lg {
+  margin-top: 0;
+  margin-bottom: $headings-margin-bottom;
+  font-family: "Neue Haas Unica Pro Bold", sans-serif;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 150%;
+  color: $quaternary;
+}
+
+.body-medium-md {
+  margin-top: 0;
+  margin-bottom: $headings-margin-bottom;
+  font-family: "Neue Haas Unica Pro Medium", sans-serif;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 150%;
+  color: $quaternary;
+}
+
+.body-medium-sm {
+  margin-top: 0;
+  margin-bottom: $headings-margin-bottom;
+  font-family: "Neue Haas Unica Pro", sans-serif;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 150%;
+  color: $quaternary;
+}
+
+.body-medium-light-lg {
+  margin-top: 0;
+  margin-bottom: $headings-margin-bottom;
+  font-family: "Neue Haas Unica Pro Bold", sans-serif;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 150%;
+  color: $quaternary;
+  opacity: 0.5;
+}
+
+.body-medium-light-md {
+  margin-top: 0;
+  margin-bottom: $headings-margin-bottom;
+  font-family: "Neue Haas Unica Pro Medium", sans-serif;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 150%;
+  color: $quaternary;
+  opacity: 0.5;
+}
+
+.body-medium-light-sm {
+  margin-top: 0;
+  margin-bottom: $headings-margin-bottom;
+  font-family: "Neue Haas Unica Pro", sans-serif;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 150%;
+  color: $quaternary;
+  opacity: 0.5;
+}
+
+.body-medium-secondary-lg {
+  margin-top: 0;
+  margin-bottom: $headings-margin-bottom;
+  font-family: "Neue Haas Unica Pro Medium", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 150%;
+  color: $secondary;
+}
+
+.body-medium-secondary-md {
+  margin-top: 0;
+  margin-bottom: $headings-margin-bottom;
+  font-family: "Neue Haas Unica Pro Medium", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 150%;
+  color: $secondary;
+  text-decoration: underline;
+}
+
+.body-medium-secondary-sm {
+  margin-top: 0;
+  margin-bottom: $headings-margin-bottom;
+  font-family: "Neue Haas Unica Pro Medium", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 150%;
+  color: $secondary;
+  opacity: 0.5;
+}
+
+/* BODY REGULAR CLASSES - for font appearance */
+
+.body-regular-lg {
+  margin-top: 0;
+  margin-bottom: $headings-margin-bottom;
+  font-family: "Neue Haas Unica Pro Bold", sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 150%;
+  color: $quaternary;
+}
+
+.body-regular-md {
+  margin-top: 0;
+  margin-bottom: $headings-margin-bottom;
+  font-family: "Neue Haas Unica Pro Medium", sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 150%;
+  color: $quaternary;
+}
+
+.body-regular-sm {
+  margin-top: 0;
+  margin-bottom: $headings-margin-bottom;
+  font-family: "Neue Haas Unica Pro", sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 150%;
+  color: $quaternary;
+}
+
+.body-regular-light-lg {
+  margin-top: 0;
+  margin-bottom: $headings-margin-bottom;
+  font-family: "Neue Haas Unica Pro Bold", sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 150%;
+  color: $quaternary;
+  opacity: 0.5;
+}
+
+.body-regular-light-md {
+  margin-top: 0;
+  margin-bottom: $headings-margin-bottom;
+  font-family: "Neue Haas Unica Pro Medium", sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 150%;
+  color: $quaternary;
+  opacity: 0.5;
+}
+
+.body-regular-light-sm {
+  margin-top: 0;
+  margin-bottom: $headings-margin-bottom;
+  font-family: "Neue Haas Unica Pro", sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 150%;
+  color: $quaternary;
+  opacity: 0.5;
+}
+
+.body-regular-text {
+  margin-top: 0;
+  margin-bottom: $headings-margin-bottom;
+  font-family: "Neue Haas Unica Pro", sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 150%;
+  color: rgba(27, 30, 32, 0.5);
+}
+
+/* BODY SMALL CLASSES - for font appearance */
+
+.body-small-lg {
+  margin-top: 0;
+  margin-bottom: $headings-margin-bottom;
+  font-family: "Neue Haas Unica Pro Bold", sans-serif;
+  font-style: normal;
+  font-size: 11px;
+  line-height: 150%;
+  color: $quaternary;
+}
+
+.body-small-md {
+  margin-top: 0;
+  margin-bottom: $headings-margin-bottom;
+  font-family: "Neue Haas Unica Pro Medium", sans-serif;
+  font-style: normal;
+  font-size: 11px;
+  line-height: 150%;
+  color: $quaternary;
+}
+
+.body-small-sm {
+  margin-top: 0;
+  margin-bottom: $headings-margin-bottom;
+  font-family: "Neue Haas Unica Pro", sans-serif;
+  font-style: normal;
+  font-size: 11px;
+  line-height: 150%;
+  color: $quaternary;
+}
+
+.body-small-light-lg {
+  margin-top: 0;
+  margin-bottom: $headings-margin-bottom;
+  font-family: "Neue Haas Unica Pro Bold", sans-serif;
+  font-style: normal;
+  font-size: 11px;
+  line-height: 150%;
+  color: $quaternary;
+  opacity: 0.5;
+}
+
+.body-small-light-md {
+  margin-top: 0;
+  margin-bottom: $headings-margin-bottom;
+  font-family: "Neue Haas Unica Pro Medium", sans-serif;
+  font-style: normal;
+  font-size: 11px;
+  line-height: 150%;
+  color: $quaternary;
+  opacity: 0.5;
+}
+
+.body-small-light-sm {
+  margin-top: 0;
+  margin-bottom: $headings-margin-bottom;
+  font-family: "Neue Haas Unica Pro", sans-serif;
+  font-style: normal;
+  font-size: 11px;
+  line-height: 150%;
+  color: $quaternary;
+  opacity: 0.5;
+}
+
+.body-small-text {
+  margin-top: 0;
+  margin-bottom: $headings-margin-bottom;
+  font-family: "Neue Haas Unica Pro", sans-serif;
+  font-style: normal;
+  font-size: 11px;
+  line-height: 150%;
+  color: $quaternary;
+  opacity: 0.5;
+}
+
+/* BODY EXTRA SMALL CLASSES - for font appearance */
+
+.body-extra-small-lg {
+  margin-top: 0;
+  margin-bottom: $headings-margin-bottom;
+  font-family: "Neue Haas Unica Pro Bold", sans-serif;
+  font-style: normal;
+  font-size: 10px;
+  line-height: 150%;
+  color: $quaternary;
+}
+
+.body-extra-small-md {
+  margin-top: 0;
+  margin-bottom: $headings-margin-bottom;
+  font-family: "Neue Haas Unica Pro Medium", sans-serif;
+  font-style: normal;
+  font-size: 10px;
+  line-height: 150%;
+  color: $quaternary;
+}
+
+.body-extra-small-sm {
+  margin-top: 0;
+  margin-bottom: $headings-margin-bottom;
+  font-family: "Neue Haas Unica Pro", sans-serif;
+  font-style: normal;
+  font-size: 10px;
+  line-height: 150%;
+  color: $quaternary;
+}
+
+.body-extra-small-light-lg {
+  margin-top: 0;
+  margin-bottom: $headings-margin-bottom;
+  font-family: "Neue Haas Unica Pro Bold", sans-serif;
+  font-style: normal;
+  font-size: 10px;
+  line-height: 150%;
+  color: $quaternary;
+  opacity: 0.5;
+}
+
+.body-extra-small-light-md {
+  margin-top: 0;
+  margin-bottom: $headings-margin-bottom;
+  font-family: "Neue Haas Unica Pro Medium", sans-serif;
+  font-style: normal;
+  font-size: 10px;
+  line-height: 150%;
+  color: $quaternary;
+  opacity: 0.5;
+}
+
+.body-extra-small-light-sm {
+  margin-top: 0;
+  margin-bottom: $headings-margin-bottom;
+  font-family: "Neue Haas Unica Pro", sans-serif;
+  font-style: normal;
+  font-size: 10px;
+  line-height: 150%;
+  color: $quaternary;
+  opacity: 0.5;
+}
+
+.body-extra-small-text {
+  margin-top: 0;
+  margin-bottom: $headings-margin-bottom;
+  font-family: "Neue Haas Unica Pro", sans-serif;
+  font-style: normal;
+  font-size: 10px;
+  line-height: 150%;
+  color: $quaternary;
+  opacity: 0.5;
+}
+
+.icon-active > span > svg{
+  box-shadow: 0 8px 16px #d8c3f3;
+}

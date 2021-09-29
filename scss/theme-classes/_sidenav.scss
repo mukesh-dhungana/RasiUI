@@ -1,0 +1,261 @@
+.logo {
+    background: $gray-100;
+    margin: 16px;
+    text-align: center;
+    height: 32px;
+    padding-top: 6px;
+}
+.main-logo {
+    background: $gray-100;
+    margin: 16px;
+    height: 32px;
+    margin-left: 24px;
+}
+
+.ant-layout-sider {
+    background: $gray-100;
+}
+.site-layout .site-layout-background {
+    background: $gray-100;
+}
+.ant-menu {
+    color: $primary;
+    font-family: "Neue Haas Unica Pro", sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 150%;
+    font-weight: 500;
+}
+
+.menu-medium {
+    margin-top: 0;
+    margin-bottom: $headings-margin-bottom;
+    font-family: "Neue Haas Unica Pro", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 150%;
+    color: inherit;
+}
+
+.menu-regular {
+    margin-top: 0;
+    margin-bottom: $headings-margin-bottom;
+    font-family: "Neue Haas Unica Pro", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 150%;
+    color: inherit;
+}
+
+.ant-menu-submenu-selected,
+.ant-menu-item-selected {
+    color: $secondary;
+}
+.ant-menu-light .ant-menu-item:hover,
+.ant-menu-light .ant-menu-item-active,
+.ant-menu-light .ant-menu:not(.ant-menu-inline) .ant-menu-submenu-open,
+.ant-menu-light .ant-menu-submenu-active .ant-menu-light .ant-menu-submenu-title:hover {
+    color: $secondary;
+}
+
+.ant-menu-light .ant-menu-item:hover,
+.ant-menu-light .ant-menu:not(.ant-menu-inline) .ant-menu-submenu-open,
+.ant-menu-light .ant-menu-submenu-title:hover {
+    color: $primary;
+}
+
+.ant-menu-submenu-expand-icon,
+.ant-menu-submenu-arrow {
+    color: $primary;
+    opacity: 0.5;
+}
+
+.ant-menu-submenu:hover > .ant-menu-submenu-title > .ant-menu-submenu-expand-icon,
+.ant-menu-submenu:hover > .ant-menu-submenu-title > .ant-menu-submenu-arrow {
+    color: $primary;
+}
+
+.ant-menu-vertical .ant-menu-item::after,
+.ant-menu-vertical-left .ant-menu-item::after,
+.ant-menu-vertical-right .ant-menu-item::after,
+.ant-menu-inline .ant-menu-item::after {
+    border-right: none;
+}
+
+.ant-menu-sub.ant-menu-inline {
+    background: $gray-100;
+}
+
+.ant-menu-sub.ant-menu-inline > .ant-menu-item,
+.ant-menu-sub.ant-menu-inline > .ant-menu-submenu > .ant-menu-submenu-title {
+    height: 20px;
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background-color: $secondary-10;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-submenu-selected .ant-menu-submenu-title {
+    background-color: $secondary-10;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+.ant-menu-item-group-title {
+    margin-top: 0;
+    margin-bottom: $headings-margin-bottom;
+    margin-top: $headings-margin-top;
+    font-family: "Neue Haas Unica Pro", sans-serif;
+    font-style: normal;
+    margin-left: 50px;
+    font-size: 8px;
+    line-height: 120%;
+    font-weight: 500;
+    color: $primary;
+    letter-spacing: 0.02em;
+    opacity: 0.5;
+}
+
+.ant-menu-sub.ant-menu-inline .ant-menu-item-group-title {
+    padding-left: 0;
+}
+
+.menu-extra-small-text {
+    margin-top: 0;
+    margin-bottom: $headings-margin-bottom;
+    font-family: "Neue Haas Unica Pro", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    margin-left: 50px;
+    font-size: 10px;
+    line-height: 150%;
+    color: $quaternary;
+    opacity: 0.5;
+}
+
+.ant-menu-vertical .ant-menu-item,
+.ant-menu-vertical-left .ant-menu-item,
+.ant-menu-vertical-right .ant-menu-item,
+.ant-menu-inline .ant-menu-item,
+.ant-menu-vertical .ant-menu-submenu-title,
+.ant-menu-vertical-left .ant-menu-submenu-title,
+.ant-menu-vertical-right .ant-menu-submenu-title,
+.ant-menu-inline .ant-menu-submenu-title {
+    height: 20px;
+}
+
+.vl-1 {
+    position: absolute;
+    left: 13%;
+    opacity: 0.25;
+    top: 13%;
+    bottom: 65.5%;
+    border-left: 1px solid $gray-300;
+}
+
+.vl-2 {
+    position: absolute;
+    left: 13%;
+    opacity: 0.25;
+    top: 15%;
+    bottom: 43%;
+    border-left: 1px solid $gray-300;
+}
+
+.vl-3 {
+    position: absolute;
+    left: 13%;
+    opacity: 0.25;
+    top: 26%;
+    bottom: 48%;
+    border-left: 1px solid $gray-300;
+}
+
+.vl-4 {
+    position: absolute;
+    left: 13%;
+    opacity: 0.25;
+    top: 31%;
+    bottom: 39%;
+    border-left: 1px solid $gray-300;
+}
+
+.vl-5 {
+    position: absolute;
+    left: 13%;
+    opacity: 0.25;
+    top: 47%;
+    bottom: 41%;
+    border-left: 1px solid $gray-300;
+}
+
+.vl-8 {
+    position: absolute;
+    left: 13%;
+    opacity: 0.25;
+    top: 70%;
+    bottom: 18%;
+    border-left: 1px solid $gray-300;
+}
+.vl-9 {
+    position: absolute;
+    left: 13%;
+    opacity: 0.25;
+    top: 47%;
+    bottom: 6%;
+    border-left: 1px solid $gray-300;
+}
+.vl-10 {
+    position: absolute;
+    left: 13%;
+    opacity: 0.25;
+    top: 73%;
+    bottom: 2%;
+    border-left: 1px solid $gray-300;
+}
+
+.trigger {
+    position: absolute;
+    color: $primary;
+    background: $gray-100;
+    opacity: 0.5;
+    bottom: 40%;
+    height: 102px;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: inset 2px 0px 10px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e1e1e1;
+    width: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition: all 0.3s;
+}
+
+.anticon svg {
+    margin-top: 40px;
+    margin-left: -3px;
+}
+
+.site-layout .site-layout-background {
+    background: $gray-100;
+}
+
+.ant-menu-item a , .ant-menu-item a:hover{
+    color: $primary;
+    text-decoration: none;
+}
+
+.ant-menu-item-selected a {
+    color: $secondary;
+}
+
+.ant-menu-inline-collapsed-tooltip { display: none; }
+
+.ant-menu-submenu-popup { display: none; }

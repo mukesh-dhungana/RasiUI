@@ -1,0 +1,53 @@
+.ant-btn {
+    font-family: "Neue Haas Unica Pro Medium", sans-serif;
+    font-style: normal;
+    width: 124px;
+    height: 36px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 150%;
+}
+
+.ant-btn > span:not(:last-child) {
+    margin-left: 12px;
+    float: right;
+}
+
+.ant-btn-primary {
+    background-color: $secondary;
+    border-color: $secondary;
+    background: $secondary;
+}
+
+.ant-btn-primary:focus {
+    color: #fff;
+    border-color: $secondary;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), $secondary;
+}
+
+.ant-btn-primary:hover {
+    color: #fff;
+    border-color: $secondary;
+    background: linear-gradient(0deg, rgba(27, 30, 32, 0.1), rgba(27, 30, 32, 0.1)), $secondary;
+}
+
+.ant-btn-primary[disabled],
+.ant-btn-primary[disabled]:hover,
+.ant-btn-primary[disabled]:focus,
+.ant-btn-primary[disabled]:active {
+    color: $extra-light;
+    background: $secondary-75;
+    opacity: 0.1;
+}
+
+.ant-btn[disabled] {
+    cursor: not-allowed;
+}
+
+.ant-btn-dangerous.ant-btn-primary {
+    color: #ff0000;
+    background: #FEE7E7;
+    text-shadow: none;
+    box-shadow: none;
+    
+}

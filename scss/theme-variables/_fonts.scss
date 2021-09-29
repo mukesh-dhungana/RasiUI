@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "Brother 1816 Medium";
+    src: url("https://s3.us-east-2.amazonaws.com/cdn.kripeshbista.com/fonts/Brother_1816_Medium/TipoType-Brother-1816-Medium.otf"),
+        url("https://s3.us-east-2.amazonaws.com/cdn.kripeshbista.com/fonts/Brother_1816_Medium/TipoType-Brother-1816-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Neue Haas Unica Pro";
+    src: url("https://s3.us-east-2.amazonaws.com/cdn.kripeshbista.com/fonts/Neue_Haas_Unica/NeueHaasUnicaPro-Regular.otf"),
+        url("https://s3.us-east-2.amazonaws.com/cdn.kripeshbista.com/fonts/Neue_Haas_Unica/NeueHaasUnicaPro-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Neue Haas Unica Pro Medium";
+    src: url("https://s3.us-east-2.amazonaws.com/cdn.kripeshbista.com/fonts/Neue_Haas_Unica/NeueHaasUnicaPro-Medium.otf"),
+        url("https://s3.us-east-2.amazonaws.com/cdn.kripeshbista.com/fonts/Neue_Haas_Unica/NeueHaasUnicaPro-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Neue Haas Unica Pro Light";
+    src: url("https://s3.us-east-2.amazonaws.com/cdn.kripeshbista.com/fonts/Neue_Haas_Unica/NeueHaasUnicaPro-Light.otf"),
+        url("https://s3.us-east-2.amazonaws.com/cdn.kripeshbista.com/fonts/Neue_Haas_Unica/NeueHaasUnicaPro-Light.ttf");
+}
+
+@font-face {
+    font-family: "Neue Haas Unica Pro Bold";
+    src: url("https://s3.us-east-2.amazonaws.com/cdn.kripeshbista.com/fonts/Neue_Haas_Unica/NeueHaasUnicaPro-Bold.otf"),
+        url("https://s3.us-east-2.amazonaws.com/cdn.kripeshbista.com/fonts/Neue_Haas_Unica/NeueHaasUnicaPro-Bold.ttf");
+}
+
+$font-size-base: 1.1875rem;
